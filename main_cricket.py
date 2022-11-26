@@ -57,8 +57,8 @@ def signup():
     result = mycursor.fetchall()
     print(result)
     new_result = []
-    print(" i am for git hub ")
     
+
 
     for m in result:
         new_result.append(m[0])
@@ -76,8 +76,9 @@ def signup():
         value = tmsg.showinfo("Success", "Registerd Successfull ")
         home_page()
         # chk=tmsg.showinfo("Again","Kindly Login")
-
-
+# print(" i am for git hub ")
+print(" i am for git hub ")
+print(" chk=tmsg.shorrrrrrrrrrrwinfo")
 def home_page():
     global child
 
