@@ -57,6 +57,8 @@ def signup():
     result = mycursor.fetchall()
     print(result)
     new_result = []
+    print(" i am for git hub ")
+    
 
     for m in result:
         new_result.append(m[0])
